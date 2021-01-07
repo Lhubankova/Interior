@@ -1,0 +1,253 @@
+@media (max-width: 1400px) {
+  .header {
+    &-content {
+      h1 {
+        font-size: 6.4rem;
+        line-height: 7.4rem;
+      }
+
+      p {
+        font-size: 3.2rem;
+      }
+
+      button {
+        width: 20rem;
+        height: 6rem;
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  .team {
+    padding: 10rem 0;
+
+    &-title {
+      font-size: 8rem;
+    }
+
+    .cards-wrapper {
+      .card {
+        width: 28rem;
+        height: 36rem;
+      }
+    }
+  }
+
+  .contact {
+    &-wrapper {
+      width: 65%;
+    }
+
+    &-right {
+      form {
+        .input-group {
+          width: 90%;
+        }
+
+        .textarea-group {
+          width: 90%;
+        }
+
+        input,
+        textarea {
+          margin: 2.5rem 0;
+        }
+
+        input {
+          height: 3rem;
+        }
+
+        button {
+          max-width: 90%;
+          height: 4rem;
+          font-size: 1.8rem;
+        }
+      }
+    }
+
+    &-title {
+      font-size: 4.8rem;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .header {
+    &-content {
+      top: 20%;
+      left: 10%;
+
+      h1 {
+        font-size: 6rem;
+        line-height: 7rem;
+      }
+
+      p {
+        font-size: 3rem;
+        margin-bottom: 4rem;
+      }
+
+      button {
+        width: 18rem;
+        height: 5rem;
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  .team {
+    padding: 8rem 0;
+
+    &-title {
+      font-size: 7rem;
+    }
+
+    .cards-wrapper {
+      flex-direction: column;
+      align-items: center;
+
+      .card {
+        width: 37rem;
+        height: 45rem;
+        margin: 4rem;
+      }
+    }
+  }
+
+  .contact {
+    &-left {
+      width: 0;
+    }
+
+    &-right {
+      width: 100%;
+      padding: 7rem 2rem;
+    }
+  }
+
+  .footer {
+    &-content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &-copyright {
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    &-content {
+      h1 {
+        font-size: 5rem;
+        line-height: 6rem;
+      }
+
+      p {
+        font-size: 2.8rem;
+      }
+    }
+  }
+
+  .contact {
+    height: auto;
+    padding: 12rem 3rem;
+
+    &-wrapper {
+      width: 70%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    &-content {
+      top: 15%;
+
+      h1 {
+        width: 80%;
+        font-size: 4.2rem;
+        line-height: 4.8rem;
+      }
+
+      p {
+        width: 90%;
+        font-size: 2.4rem;
+      }
+    }
+  }
+
+  .sidebar {
+    width: 32rem;
+    right: -32rem;
+
+    &-menu {
+      top: 45%;
+
+      &-item {
+        margin: 1.3rem;
+      }
+    }
+
+    &-media {
+      i {
+        margin: 3rem 1rem;
+      }
+    }
+  }
+
+  .change {
+    .hamburger-menu {
+      right: 26rem;
+    }
+  }
+
+  .team {
+    padding: 5rem 0;
+
+    &-title {
+      font-size: 4rem;
+      margin-bottom: 3rem;
+
+      &::after {
+        width: 20rem;
+        height: .35rem;
+      }
+    }
+
+    .cards-wrapper {
+      .card {
+        max-width: 80%;
+        height: 38rem;
+        margin: 3rem;
+      }
+    }
+  }
+
+  .contact {
+    &-wrapper {
+      width: 90%;
+    }
+
+    &-right {
+      padding: 4rem 2rem;
+
+      form {
+        .input-group {
+          width: 100%;
+        }
+
+        .textarea-group {
+          width: 100%;
+        }
+
+        button {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
